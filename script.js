@@ -1,5 +1,8 @@
 let imgBox = document.querySelector(".img-box");
 let imgWrap = document.querySelector(".img-wrap");
+let originalImg = document.getElementById("originalImg");
+
+originalImg.style.width = imgBox.offsetWidth + "px";
 
 let leftSpace = imgBox.offsetLeft;
 
